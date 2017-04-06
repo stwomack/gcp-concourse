@@ -33,7 +33,7 @@ resources:
 - name: gcp-concourse
   type: git
   source:
-    uri: https://github.com/krishicks/gcp-concourse.git
+    uri: https://github.com/stwomack/gcp-concourse.git
     branch: master
 
 - name: ert-concourse
