@@ -1,5 +1,5 @@
 resource "google_sql_database_instance" "master" {
-  region           = "${var.gcp_region}"
+  region           = "us-central"
   database_version = "MYSQL_5_6"
   name             = "${var.ert_sql_instance_name}"
 
